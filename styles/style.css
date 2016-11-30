@@ -1,0 +1,146 @@
+html{
+  font-size: 1.0rem;
+}
+
+.topSection {
+    width: 100%;
+    height: 100vh;
+    background: url("https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/assets/mp-hero-02.jpg") center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.logoMid {
+    justify-content: center;
+    width: 100%;
+    fill: #fff;
+}
+
+.innerContentTop {}
+
+.innerContentBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 40px;
+    text-align: center;
+}
+
+.logoBottom {
+    text-align: center;
+    width: 100px;
+    padding-bottom: 20px;
+}
+
+.created-by {
+    display: inline;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.main-cta {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    text-decoration: none;
+}
+
+.main-cta:hover {
+    color: #f36;
+    border-bottom: 1px solid #f36;
+}
+
+.retailSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imageBlock {
+    margin: 2% 2% 1% 2%;
+    height: 50vh;
+    width: 94%;
+    background-size: cover;
+}
+
+.first {
+    background-image: url("https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/jon-contino-homepage-tshirt-large.jpg");
+}
+
+.second {
+    background-image: url("https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/laura-bohill-homepage-tshirt-large.jpg");
+}
+
+.third {
+    background-image: url("https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/mike-kus-homepage-tshirt-large.jpg");
+}
+
+.fourth {
+    background-image: url("https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/daniel-haire-homepage-tshirt-large.jpg");
+}
+
+.mailBait {
+    width: 100%;
+}
+
+.mailBait-wrapper {
+    height:200px;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.newStyle{
+
+}
+.textyParts{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.theBait{
+  font-size: .8rem;
+}
+.emailForm{
+  display: flex;
+  flex-direction: column;
+  height:150px;
+}
+.theBait-input{
+  border-radius:0px;
+  border: 2px;
+
+}
+.btnBait{
+  border-radius:0px;
+  border: 1px;
+  background-color: #000;
+  color: #fff;
+  height: 35px;
+}
+
+@media (min-width: 700px) {
+    .imageBlock {
+        width: 45vw;
+        height: 36vw;
+    }
+    .retailSection {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .mailBait-wrapper {
+      flex-direction: row;
+    }
+}
